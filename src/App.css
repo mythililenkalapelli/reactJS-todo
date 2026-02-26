@@ -1,0 +1,45 @@
+.main-body{
+ background: #19a5aa;
+ height: 100vh;
+}
+.todo-list-mainDiv{
+ background-color: white;
+ width:500px;
+ height: 750px;
+ border-radius: 8px;
+ align-items: center;
+}
+.todo-task-input-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+#add-button
+{
+   width: 50px; 
+   height: 50px;
+   border-radius: 50%;
+}
+.tasks-list{
+    width: 95%;
+    margin: auto;
+    list-style:none ;
+    padding: 0px; 
+    display: flex;
+    flex-direction: column;
+    row-gap:10px ;
+}
+.task-list-li
+{
+    margin: 0px;
+}
+
+.task-buttons
+{
+   column-gap: 10px;
+   display: flex;
+}
