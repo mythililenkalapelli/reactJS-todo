@@ -8,7 +8,6 @@ function App() {
   const [myTask,setmyTask]= useState([])
   const  [completedTasks,setcompletedTask]=useState([]);
 
-  let a = [1,2,3,4]
 
   function handleInput(e){
     let newValue= e.target.value;
